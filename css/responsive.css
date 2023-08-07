@@ -1,0 +1,108 @@
+
+@media screen and (max-width:1399px) {
+    #services .text--design{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    *{
+        transition: all linear 0.3s;
+    }
+    
+    #nav .navbar-nav{
+        align-items: normal;
+    }
+    
+    #services .card--design {
+        padding-top: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    #services .card--design {
+        padding-top: 11px;
+    }
+
+    #services .text--design{
+        font-size: 13px;
+        padding-top: 14px;
+    }
+
+    #services .btn {
+        padding: 4px 9px;
+    }
+}
+
+@media screen and (max-width:767.99px){
+    #services .services__card {
+        column-gap: 109px;
+        
+    }
+    #services .card--design {
+        padding-top: 30px;
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    #services .card--design {
+        padding-top: 11px;
+    }
+
+    #services .text--design{
+        font-size: 18px;
+        padding-top: 14px;
+    }
+
+    #services .btn {
+        padding: 4px 9px;
+    }
+
+
+}
+
+
+@media screen and (max-width:715px) {
+
+    *{
+        transition: all linear 0.3s;
+    }
+    
+    #banner .banner{
+        padding: 150px 0;
+        background-position: left;
+    }
+
+    #banner .banner__heading{
+        font-size: 40px;
+    }
+    
+    #banner .banner__para{
+        font-size: 16px;
+        padding-top: 4px;
+        padding-bottom: 29px;
+        line-height: 33px;
+    }
+
+    #banner .banner__button{
+        padding: 10px 20px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+
+    #banner .banner__heading {
+        font-size: 30px;
+      }
+
+    #banner .banner__para{
+        padding-bottom: 10px;
+        line-height: 27px;
+    }
+
+    #banner .banner__button {
+        padding: 5px 10px;
+        font-size: 12px;
+      }
+}

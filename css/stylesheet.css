@@ -234,6 +234,8 @@ text-transform: capitalize;
   color: #fff;
   border-radius: 5px;
 }
+
+
 /* =========================Portofolio========================== */
 
 /* =========================TEAM========================== */
@@ -304,7 +306,6 @@ text-transform: capitalize;
 }
 
 #plan .plan__card{
-  display: flex;
   justify-content: center;
   column-gap: 33px;
   text-align: center;

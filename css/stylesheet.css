@@ -407,6 +407,8 @@ color: #8c9299;
   font-weight: 400px;
   color: #4e525d;
   padding-bottom: 40px;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .client--name{

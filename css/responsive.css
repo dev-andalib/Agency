@@ -43,6 +43,11 @@
   #client .comment{
     width:80%;
   }
+
+
+  .footer--row{
+    justify-content: end;
+  }
 }
 
 
@@ -126,6 +131,10 @@
 
       }
 
+     .design2{ 
+        width: 300px;
+      }
+
 
 
 }
@@ -188,6 +197,14 @@
     padding: 100px 0 70px 0;
   }
 
+  .footer__form{
+    justify-content: center;
+}
+
+.footer__body{
+ flex-wrap: wrap;
+}
+
 }
 
 @media screen and (max-width:400px) {
@@ -220,5 +237,6 @@
       #client .client__content{
         padding: 70px 0 30px 0;
       }
-}
 
+
+    }
